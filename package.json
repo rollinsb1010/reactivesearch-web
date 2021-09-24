@@ -27,7 +27,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/appbaseio/reactivesearch.git"
+		"url": "https://bitbucket.fd.org:8443/scm/nitoad/reactivesearch-web.git"
 	},
 	"author": "metagrover",
 	"license": "Apache-2.0",
