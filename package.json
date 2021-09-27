@@ -1,5 +1,5 @@
 {
-	"name": "@appbaseio/reactivesearch",
+	"name": "@rollinsb1010/reactivesearch-web",
 	"version": "3.24.0",
 	"description": "A React UI components library for building search experiences",
 	"main": "lib/index.js",
@@ -27,7 +27,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.fd.org:8443/scm/nitoad/reactivesearch-web.git"
+		"url": "https://github.com/rollinsb1010/reactivesearch-web.git"
+	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
 	},
 	"author": "metagrover",
 	"license": "Apache-2.0",
