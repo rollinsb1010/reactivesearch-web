@@ -1,6 +1,6 @@
 {
 	"name": "@rollinsb1010/reactivesearch-web",
-	"version": "3.25.6",
+	"version": "3.25.65",
 	"description": "A React UI components library for building search experiences",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -35,9 +35,9 @@
 	"author": "metagrover",
 	"license": "Apache-2.0",
 	"dependencies": {
-		"@rollinsb1010/reactivecore": "^9.12.5",
 		"@emotion/core": "^10.0.28",
 		"@emotion/styled": "^10.0.27",
+		"@rollinsb1010/reactivecore": "^9.12.5",
 		"appbase-js": "^4.1.5",
 		"cross-env": "^5.2.0",
 		"downshift": "^1.31.2",
