@@ -6,7 +6,7 @@ import Appbase from 'appbase-js';
 import 'url-search-params-polyfill';
 import { ThemeProvider } from 'emotion-theming';
 
-import configureStore from '@appbaseio/reactivecore';
+import configureStore from '@rollinsb1010/reactivecore';
 import { checkSomePropChange } from '@rollinsb1010/reactivecorelib/utils/helper';
 import { updateAnalyticsConfig } from '@rollinsb1010/reactivecorelib/actions/analytics';
 import types from '@rollinsb1010/reactivecorelib/utils/types';
