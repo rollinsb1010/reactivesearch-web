@@ -1,5 +1,5 @@
 import React from 'react';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 import { getComponent, hasCustomRenderer } from '../../../utils';
 import MicSvg from '../../shared/MicSvg';
 import MuteSvg from '../../shared/MuteSvg';

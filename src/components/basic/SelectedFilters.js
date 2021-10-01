@@ -2,10 +2,10 @@
 import { jsx } from '@emotion/core';
 import React, { Component } from 'react';
 import { withTheme } from 'emotion-theming';
-import { setValue, clearValues, resetValuesToDefault } from '@rollinsb1010/reactivecorelib/actions';
-import { componentTypes, CLEAR_ALL } from '@rollinsb1010/reactivecorelib/utils/constants';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import { getClassName, handleA11yAction } from '@rollinsb1010/reactivecorelib/utils/helper';
+import { setValue, clearValues, resetValuesToDefault } from '@rollinsb1010/reactivecore/lib/actions';
+import { componentTypes, CLEAR_ALL } from '@rollinsb1010/reactivecore/lib/utils/constants';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import { getClassName, handleA11yAction } from '@rollinsb1010/reactivecore/lib/utils/helper';
 import Button, { filters } from '../../styles/Button';
 import Container from '../../styles/Container';
 import Title from '../../styles/Title';

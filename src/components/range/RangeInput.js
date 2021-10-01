@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import { isEqual, getClassName } from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import { isEqual, getClassName } from '@rollinsb1010/reactivecore/lib/utils/helper';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import RangeSlider from './RangeSlider';
 import Input from '../../styles/Input';

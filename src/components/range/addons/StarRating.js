@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core';
 import React from 'react';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 import { element } from 'prop-types';
 
 import Star from './Star';

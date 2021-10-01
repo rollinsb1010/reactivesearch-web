@@ -6,10 +6,10 @@ import {
 	loadMore,
 	setCustomQuery,
 	setDefaultQuery,
-} from '@rollinsb1010/reactivecorelib/actions';
-import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+} from '@rollinsb1010/reactivecore/lib/actions';
+import { getInternalComponentID } from '@rollinsb1010/reactivecore/lib/utils/transform';
 import hoistNonReactStatics from 'hoist-non-react-statics';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
 import {
 	isEqual,
 	getQueryOptions,
@@ -23,9 +23,9 @@ import {
 	updateInternalQuery,
 	updateCustomQuery,
 	updateDefaultQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
 
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 
 import Title from '../../styles/Title';
 import Input from '../../styles/Input';

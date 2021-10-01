@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecore/lib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	isEqual,
@@ -9,10 +9,10 @@ import {
 	getClassName,
 	getOptionsFromQuery,
 	updateCustomQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
 
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 import Title from '../../styles/Title';
 import Container from '../../styles/Container';
 import Dropdown from '../shared/Dropdown';

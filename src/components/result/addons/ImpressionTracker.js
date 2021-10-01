@@ -1,8 +1,8 @@
 import React from 'react';
 import { node } from 'prop-types';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import { isEqual } from '@rollinsb1010/reactivecorelib/utils/helper';
-import { recordImpressions } from '@rollinsb1010/reactivecorelib/actions';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import { isEqual } from '@rollinsb1010/reactivecore/lib/utils/helper';
+import { recordImpressions } from '@rollinsb1010/reactivecore/lib/actions';
 import { connect, ReactReduxContext } from '../../../utils';
 
 const debounce = (method, delay) => {

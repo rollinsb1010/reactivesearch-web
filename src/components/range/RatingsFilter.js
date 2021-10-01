@@ -2,9 +2,9 @@
 import { jsx } from '@emotion/core';
 import React, { Component } from 'react';
 
-import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecore/lib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
 import {
 	checkValueChange,
 	checkSomePropChange,
@@ -13,8 +13,8 @@ import {
 	isEqual,
 	updateCustomQuery,
 	getOptionsFromQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 import { element } from 'prop-types';
 
 import Title from '../../styles/Title';

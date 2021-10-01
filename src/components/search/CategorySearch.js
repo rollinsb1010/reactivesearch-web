@@ -15,7 +15,7 @@ import {
 	setCustomHighlightOptions,
 	loadPopularSuggestions,
 	getRecentSearches,
-} from '@rollinsb1010/reactivecorelib/actions';
+} from '@rollinsb1010/reactivecore/lib/actions';
 import {
 	debounce,
 	checkValueChange,
@@ -32,11 +32,11 @@ import {
 	getTopSuggestions,
 	getQueryOptions,
 	normalizeDataField,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
-import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import causes from '@rollinsb1010/reactivecorelib/utils/causes';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
+import { getInternalComponentID } from '@rollinsb1010/reactivecore/lib/utils/transform';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import causes from '@rollinsb1010/reactivecore/lib/utils/causes';
 import hotkeys from 'hotkeys-js';
 import Title from '../../styles/Title';
 import InputGroup from '../../styles/InputGroup';

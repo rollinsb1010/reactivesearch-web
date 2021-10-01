@@ -1,5 +1,5 @@
 import React from 'react';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 
 const CancelSvg = ({ onClick }) => (
 	<svg

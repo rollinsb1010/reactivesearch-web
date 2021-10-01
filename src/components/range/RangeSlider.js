@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core';
 import React, { Component } from 'react';
-import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecore/lib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	isEqual,
@@ -11,11 +11,11 @@ import {
 	getClassName,
 	getOptionsFromQuery,
 	updateCustomQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
 import Rheostat from 'rheostat/lib/Slider';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
-import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
+import { getInternalComponentID } from '@rollinsb1010/reactivecore/lib/utils/transform';
 import HistogramContainer from './addons/HistogramContainer';
 import RangeLabel from './addons/RangeLabel';
 import SliderHandle from './addons/SliderHandle';

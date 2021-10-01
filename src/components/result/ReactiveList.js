@@ -11,7 +11,7 @@ import {
 	setValue,
 	updateComponentProps,
 	setDefaultQuery,
-} from '@rollinsb1010/reactivecorelib/actions';
+} from '@rollinsb1010/reactivecore/lib/actions';
 import {
 	isEqual,
 	getQueryOptions,
@@ -22,10 +22,10 @@ import {
 	getCompositeAggsQuery,
 	getResultStats,
 	updateDefaultQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
-import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
+import { getInternalComponentID } from '@rollinsb1010/reactivecore/lib/utils/transform';
 import Pagination from './addons/Pagination';
 import PoweredBy from './addons/PoweredBy';
 

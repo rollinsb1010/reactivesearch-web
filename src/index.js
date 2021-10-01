@@ -1,4 +1,4 @@
-import '@rollinsb1010/reactivecorelib/utils/polyfills';
+import '@rollinsb1010/reactivecore/lib/utils/polyfills';
 
 import ReactiveBase from './components/basic/ReactiveBase';
 import SelectedFilters from './components/basic/SelectedFilters';

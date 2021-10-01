@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecore/lib/actions';
 import {
 	isEqual,
 	getQueryOptions,
@@ -12,12 +12,12 @@ import {
 	getOptionsFromQuery,
 	getAggsQuery,
 	updateCustomQuery,
-} from '@rollinsb1010/reactivecorelib/utils/helper';
-import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+} from '@rollinsb1010/reactivecore/lib/utils/helper';
+import { getInternalComponentID } from '@rollinsb1010/reactivecore/lib/utils/transform';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 
-import types from '@rollinsb1010/reactivecorelib/utils/types';
-import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
+import types from '@rollinsb1010/reactivecore/lib/utils/types';
+import { componentTypes } from '@rollinsb1010/reactivecore/lib/utils/constants';
 
 import Title from '../../styles/Title';
 import TagList from '../../styles/TagList';
