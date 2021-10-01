@@ -72,9 +72,10 @@ class SelectedFilters extends Component {
 	};
 
 	renderFilters = () => {
-		const { selectedValues } = this.props;
+		const { selectedValues, components, componentProps } = this.props;
 		return Object.keys(selectedValues)
-			.filter(id => this.props.components.includes(id) && selectedValues[id].showFilter)
+		//add ability for groups to properly filter
+			.filter(id => this.props.components.includes(id) && selectedValues[id].showFilter) ||  components.map(component => componentProps[component].group === id)
 			.map((component, index) => {
 				const { label, value, category } = selectedValues[component];
 				const isArray = Array.isArray(value);
