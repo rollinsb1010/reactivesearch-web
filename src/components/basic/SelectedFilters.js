@@ -75,7 +75,7 @@ class SelectedFilters extends Component {
 		const { selectedValues, components, componentProps } = this.props;
 		return Object.keys(selectedValues)
 		//add ability for groups to properly filter
-			.filter(id => this.props.components.includes(id) && selectedValues[id].showFilter) ||  components.map(component => componentProps[component].group === id)
+			.filter(id => (this.props.components.includes(id) && selectedValues[id].showFilter) ||  (components.map(component => componentProps[component].group === id) && selectedValues[id].showFilter))
 			.map((component, index) => {
 				const { label, value, category } = selectedValues[component];
 				const isArray = Array.isArray(value);
