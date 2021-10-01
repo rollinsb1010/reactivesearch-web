@@ -5,7 +5,7 @@ import {
 	setQueryOptions,
 	setCustomQuery,
 	setDefaultQuery,
-} from '@appbaseio/reactivecore/lib/actions';
+} from '@rollinsb1010/reactivecorelib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	isEqual,
@@ -20,11 +20,11 @@ import {
 	updateInternalQuery,
 	updateCustomQuery,
 	updateDefaultQuery,
-} from '@appbaseio/reactivecore/lib/utils/helper';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
 
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
-import { getInternalComponentID } from '@appbaseio/reactivecore/lib/utils/transform';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
+import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
 import Title from '../../styles/Title';
 import Container from '../../styles/Container';
 import Button, { loadMoreContainer } from '../../styles/Button';

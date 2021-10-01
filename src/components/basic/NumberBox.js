@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/core';
 import React, { Component } from 'react';
 
-import { updateQuery, setQueryOptions, setCustomQuery } from '@appbaseio/reactivecore/lib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	checkValueChange,
@@ -11,9 +11,9 @@ import {
 	getClassName,
 	getOptionsFromQuery,
 	updateCustomQuery,
-} from '@appbaseio/reactivecore/lib/utils/helper';
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
 
 import Title from '../../styles/Title';
 import Button, { numberBoxContainer } from '../../styles/Button';

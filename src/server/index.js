@@ -1,18 +1,18 @@
 import Appbase from 'appbase-js';
 
-import valueReducer from '@appbaseio/reactivecore/lib/reducers/valueReducer';
-import queryReducer from '@appbaseio/reactivecore/lib/reducers/queryReducer';
-import queryOptionsReducer from '@appbaseio/reactivecore/lib/reducers/queryOptionsReducer';
-import dependencyTreeReducer from '@appbaseio/reactivecore/lib/reducers/dependencyTreeReducer';
-import { buildQuery, pushToAndClause } from '@appbaseio/reactivecore/lib/utils/helper';
-import fetchGraphQL from '@appbaseio/reactivecore/lib/utils/graphQL';
-import { componentTypes, validProps } from '@appbaseio/reactivecore/lib/utils/constants';
+import valueReducer from '@rollinsb1010/reactivecorelib/reducers/valueReducer';
+import queryReducer from '@rollinsb1010/reactivecorelib/reducers/queryReducer';
+import queryOptionsReducer from '@rollinsb1010/reactivecorelib/reducers/queryOptionsReducer';
+import dependencyTreeReducer from '@rollinsb1010/reactivecorelib/reducers/dependencyTreeReducer';
+import { buildQuery, pushToAndClause } from '@rollinsb1010/reactivecorelib/utils/helper';
+import fetchGraphQL from '@rollinsb1010/reactivecorelib/utils/graphQL';
+import { componentTypes, validProps } from '@rollinsb1010/reactivecorelib/utils/constants';
 import {
 	getRSQuery,
 	extractPropsFromState,
 	getDependentQueries,
-} from '@appbaseio/reactivecore/lib/utils/transform';
-import { isPropertyDefined } from '@appbaseio/reactivecore/lib/actions/utils';
+} from '@rollinsb1010/reactivecorelib/utils/transform';
+import { isPropertyDefined } from '@rollinsb1010/reactivecorelib/actions/utils';
 
 const componentsWithHighlightQuery = [componentTypes.dataSearch, componentTypes.categorySearch];
 

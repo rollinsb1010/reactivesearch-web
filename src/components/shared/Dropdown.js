@@ -4,8 +4,8 @@ import { Component } from 'react';
 import Downshift from 'downshift';
 import { withTheme } from 'emotion-theming';
 
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { getClassName } from '@appbaseio/reactivecore/lib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { getClassName } from '@rollinsb1010/reactivecorelib/utils/helper';
 
 import Input, { suggestionsContainer, suggestions } from '../../styles/Input';
 import Select, { Tick } from '../../styles/Select';

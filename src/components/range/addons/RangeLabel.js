@@ -1,5 +1,5 @@
 import React from 'react';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 
 import Label from '../../../styles/Label';
 

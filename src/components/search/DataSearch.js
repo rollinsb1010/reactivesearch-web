@@ -14,7 +14,7 @@ import {
 	setCustomHighlightOptions,
 	loadPopularSuggestions,
 	getRecentSearches,
-} from '@appbaseio/reactivecore/lib/actions';
+} from '@rollinsb1010/reactivecorelib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	debounce,
@@ -31,13 +31,13 @@ import {
 	getTopSuggestions,
 	getQueryOptions,
 	normalizeDataField,
-} from '@appbaseio/reactivecore/lib/utils/helper';
-import { getInternalComponentID } from '@appbaseio/reactivecore/lib/utils/transform';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
+import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
 import hotkeys from 'hotkeys-js';
 
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import causes from '@appbaseio/reactivecore/lib/utils/causes';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import causes from '@rollinsb1010/reactivecorelib/utils/causes';
 import Title from '../../styles/Title';
 import Input, { suggestionsContainer, suggestions } from '../../styles/Input';
 import SearchSvg from '../shared/SearchSvg';

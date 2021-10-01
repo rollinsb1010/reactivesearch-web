@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { setHeaders, setValue } from '@appbaseio/reactivecore/lib/actions';
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { isEqual } from '@appbaseio/reactivecore/lib/utils/helper';
+import { setHeaders, setValue } from '@rollinsb1010/reactivecorelib/actions';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { isEqual } from '@rollinsb1010/reactivecorelib/utils/helper';
 
 import Base from '../../styles/Base';
 import { connect } from '../../utils';

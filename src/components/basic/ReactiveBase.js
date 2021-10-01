@@ -7,9 +7,9 @@ import 'url-search-params-polyfill';
 import { ThemeProvider } from 'emotion-theming';
 
 import configureStore from '@appbaseio/reactivecore';
-import { checkSomePropChange } from '@appbaseio/reactivecore/lib/utils/helper';
-import { updateAnalyticsConfig } from '@appbaseio/reactivecore/lib/actions/analytics';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+import { checkSomePropChange } from '@rollinsb1010/reactivecorelib/utils/helper';
+import { updateAnalyticsConfig } from '@rollinsb1010/reactivecorelib/actions/analytics';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 import URLParamsProvider from './URLParamsProvider';
 
 import getTheme from '../../styles/theme';

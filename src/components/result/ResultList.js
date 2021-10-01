@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { oneOfType } from 'prop-types';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 import Title from '../../styles/Title';
 import ListItem from '../../styles/ListItem';
 import ResultListImage from './addons/ResultListImage';

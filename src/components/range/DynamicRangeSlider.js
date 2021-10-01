@@ -11,7 +11,7 @@ import {
 	setComponentProps,
 	setCustomQuery,
 	updateComponentProps,
-} from '@appbaseio/reactivecore/lib/actions';
+} from '@rollinsb1010/reactivecorelib/actions';
 
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
@@ -23,10 +23,10 @@ import {
 	pushToAndClause,
 	updateCustomQuery,
 	getOptionsFromQuery,
-} from '@appbaseio/reactivecore/lib/utils/helper';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 import Rheostat from 'rheostat/lib/Slider';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
 
 import HistogramContainer from './addons/HistogramContainer';
 import RangeLabel from './addons/RangeLabel';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { getClassName } from '@appbaseio/reactivecore/lib/utils/helper';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+import { getClassName } from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 import ImpressionTracker from './ImpressionTracker';
 
 const Results = ({

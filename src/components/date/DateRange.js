@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { updateQuery, setQueryOptions, setCustomQuery } from '@appbaseio/reactivecore/lib/actions';
+import { updateQuery, setQueryOptions, setCustomQuery } from '@rollinsb1010/reactivecorelib/actions';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {
 	isEqual,
@@ -9,10 +9,10 @@ import {
 	formatDate,
 	updateCustomQuery,
 	checkSomePropChange,
-} from '@appbaseio/reactivecore/lib/utils/helper';
-import types from '@appbaseio/reactivecore/lib/utils/types';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
 import XDate from 'xdate';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
 import DayPickerInput from 'react-day-picker/DayPickerInput';
 import { withTheme } from 'emotion-theming';
 

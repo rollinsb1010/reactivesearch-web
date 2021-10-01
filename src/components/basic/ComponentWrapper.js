@@ -1,12 +1,12 @@
 import React from 'react';
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { getInternalComponentID } from '@appbaseio/reactivecore/lib/utils/transform';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
 
 import {
 	pushToAndClause,
 	checkPropChange,
 	checkSomePropChange,
-} from '@appbaseio/reactivecore/lib/utils/helper';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
 
 import {
 	addComponent,
@@ -15,7 +15,7 @@ import {
 	setQueryListener,
 	setComponentProps,
 	updateComponentProps,
-} from '@appbaseio/reactivecore/lib/actions';
+} from '@rollinsb1010/reactivecorelib/actions';
 
 import { connect, getValidPropsKeys, hasCustomRenderer, getComponent } from '../../utils';
 

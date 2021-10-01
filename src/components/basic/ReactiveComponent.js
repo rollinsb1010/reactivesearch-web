@@ -5,7 +5,7 @@ import {
 	setQueryOptions,
 	setCustomQuery,
 	setDefaultQuery,
-} from '@appbaseio/reactivecore/lib/actions';
+} from '@rollinsb1010/reactivecorelib/actions';
 import {
 	parseHits,
 	isEqual,
@@ -16,10 +16,10 @@ import {
 	getResultStats,
 	updateCustomQuery,
 	updateDefaultQuery,
-} from '@appbaseio/reactivecore/lib/utils/helper';
-import types from '@appbaseio/reactivecore/lib/utils/types';
-import { getInternalComponentID } from '@appbaseio/reactivecore/lib/utils/transform';
-import { componentTypes } from '@appbaseio/reactivecore/lib/utils/constants';
+} from '@rollinsb1010/reactivecorelib/utils/helper';
+import types from '@rollinsb1010/reactivecorelib/utils/types';
+import { getInternalComponentID } from '@rollinsb1010/reactivecorelib/utils/transform';
+import { componentTypes } from '@rollinsb1010/reactivecorelib/utils/constants';
 import { connect, getComponent, hasCustomRenderer } from '../../utils';
 import ComponentWrapper from '../basic/ComponentWrapper';
 

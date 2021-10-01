@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect as connectToStore } from 'react-redux';
-import { isEqual } from '@appbaseio/reactivecore/lib/utils/helper';
-import { validProps } from '@appbaseio/reactivecore/lib/utils/constants';
+import { isEqual } from '@rollinsb1010/reactivecorelib/utils/helper';
+import { validProps } from '@rollinsb1010/reactivecorelib/utils/constants';
 
 export const ReactReduxContext = React.createContext(null);
 
