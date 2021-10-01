@@ -1,6 +1,6 @@
 {
 	"name": "@rollinsb1010/reactivesearch-web",
-	"version": "3.25.4",
+	"version": "3.25.5",
 	"description": "A React UI components library for building search experiences",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
