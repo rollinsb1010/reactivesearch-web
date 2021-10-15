@@ -259,7 +259,7 @@ class ToggleButton extends Component {
 							primary={isSelected}
 							large
 						>
-							{item.label},
+							{item.label}
 							{this.props.children}
 						</Button>
 					);
